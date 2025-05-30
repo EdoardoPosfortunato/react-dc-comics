@@ -8,14 +8,14 @@ import style from "./App.module.css"
 function App() {
   return (
     <>
-      <div className={style.container}>
+      
 
         <Header />
         <Main />
         <Band />
         <Footer />
 
-      </div>
+
     </>
   )
 }

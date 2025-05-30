@@ -1,7 +1,13 @@
+import style from "./Band.module.css"
+
 function Band() {
   return (
     <>
-    <h1>Questo è il Band</h1>
+      <div className={style.band}>
+        <div className={style.container}>
+          <p>--- Questo è il Band ---</p>
+        </div>
+      </div>
     </>
   )
 }

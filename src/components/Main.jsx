@@ -1,7 +1,14 @@
+import style from "./Main.module.css"
+
+
 function Main() {
   return (
     <>
-    <h1>Main</h1>
+      <div className={style.main}>
+        <div className={style.container}>
+          <p>---- Content goes here ------</p>
+        </div>
+      </div>
     </>
   )
 }

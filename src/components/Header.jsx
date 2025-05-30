@@ -3,25 +3,29 @@ import style from "./Header.module.css"
 function Header() {
   return (
     <>
-    <div className={style.header}>
-      <div >
-        <img src="/dc-logo.png" alt="" />
+      <div>
+        <div className={style.container}>
+          <div className={style.header}>
+            <div >
+              <img src="/dc-logo.png" alt="" />
+            </div>
+            <div className={style.listDivision}>
+              <ul>
+                <li><a href="">CHARACTERS</a></li>
+                <li><a href="">COMICS</a></li>
+                <li><a href="">MOVIES</a></li>
+                <li><a href="">TV</a></li>
+                <li><a href="">GAMES</a></li>
+                <li><a href="">COLLECTIBLES</a></li>
+                <li><a href="">VIDEOS</a></li>
+                <li><a href="">FANS</a></li>
+                <li><a href="">NEWS</a></li>
+                <li><a href="">SHOP</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-      <div  className={style.listDivision}>
-        <ul>
-          <li><a href="">link 1</a></li>
-          <li><a href="">link 2</a></li>
-          <li><a href="">link 3</a></li>
-          <li><a href="">link 4</a></li>
-          <li><a href="">link 5</a></li>
-          <li><a href="">link 6</a></li>
-          <li><a href="">link 7</a></li>
-          <li><a href="">link 8</a></li>
-          <li><a href="">link 9</a></li>
-          <li><a href="">link 10</a></li>
-        </ul>
-      </div>
-    </div>
     </>
   )
 }
