@@ -1,10 +1,10 @@
 .main {
     background-color: rgb(61, 61, 61);
-    height: 100px;
+    height: 15vh;
 }
 
 .container {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     height: 100%;
     display: flex;

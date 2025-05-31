@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-size: small;
-    font-weight: 700;
+    font-weight: 100;
 }
 
 .container {

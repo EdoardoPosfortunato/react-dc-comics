@@ -1,0 +1,48 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    height: 55vh;
+}
+
+
+.footer {
+    background-color: rgb(61, 61, 61);
+    height: 40vh;
+    padding: 45px 0;
+    background-image: url(/public/footer-bg.jpg);
+    background-repeat: no-repeat;
+    /* background-image: url(/public/dc-logo.png); */
+}
+
+.totalList {
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+    height: 30vh;
+
+}
+
+.flexList {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+h2 {
+    font-weight: 700;
+    color: beige;
+}
+
+.flexList ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: smaller;
+    color: rgb(134, 134, 133);
+    font-weight: 100;
+}
+
+.signNow {
+    height: 15vh;
+    background-color: rgb(65, 65, 65);
+}
