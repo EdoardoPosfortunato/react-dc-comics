@@ -58,8 +58,19 @@ function Footer() {
       </div>
       <div className={style.signNow}>
         <div className={style.container}>
-
-        <h1>sign now</h1>
+          <div className={style.flex}>
+            <div>
+              <div className={style.btn}>SIGN-UP NOW!</div>
+            </div>
+            <div className={style.icons}>
+              <p>FOLLLOW US</p>
+              <img src="/footer-facebook.png" alt="logo" />
+              <img src="/footer-twitter.png" alt="logo" />
+              <img src="/footer-youtube.png" alt="logo" />
+              <img src="/footer-pinterest.png" alt="logo" />
+              <img src="/footer-periscope.png" alt="logo" />
+            </div>
+          </div>
         </div>
       </div>
     </>

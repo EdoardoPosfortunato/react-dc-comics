@@ -14,6 +14,9 @@ const ComicsList = () => {
                     </div> 
                     ))}
                 </div>
+                <div className={style.btn}>
+                    <a>LOAD MORE</a>
+                </div>
             </div>
         </div>);
 }

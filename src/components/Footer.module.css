@@ -1,13 +1,11 @@
 .container {
     width: 80%;
     margin: 0 auto;
-    height: 55vh;
 }
 
 
 .footer {
     background-color: rgb(61, 61, 61);
-    height: 40vh;
     padding: 45px 0;
     background-image: url(/public/footer-bg.jpg);
     background-repeat: no-repeat;
@@ -42,7 +40,34 @@ h2 {
     font-weight: 100;
 }
 
+
 .signNow {
-    height: 15vh;
     background-color: rgb(65, 65, 65);
+    padding: 30px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    color: white;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: 2px solid rgb(39, 103, 163);
+}
+
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+.icons p {
+    font-weight: 700;
+    font-size: medium;
+    color: rgb(39, 103, 163);
 }
