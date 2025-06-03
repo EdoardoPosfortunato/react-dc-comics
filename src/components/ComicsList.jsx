@@ -13,10 +13,6 @@ const ComicsList = () => {
                         <h2>{currComic.title}</h2>
                     </div> 
                     ))}
-
-
-
-
                 </div>
             </div>
         </div>);
