@@ -62,7 +62,6 @@ function Footer() {
         <h1>sign now</h1>
         </div>
       </div>
-      div
     </>
   )
 }

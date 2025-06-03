@@ -1,0 +1,45 @@
+.main {
+    background-color: rgb(61, 61, 61);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+
+p {
+    color: white;
+    font-size: 2rem;
+}
+
+.img {
+    height: 20vh;
+    background-image: url(/public/jumbotron.jpg);
+    background-size:cover;
+}
+
+.bacheca {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    row-gap: 50px;
+}
+
+.card {
+    width: 15%;
+}
+
+img {
+    width: 100%;
+    overflow: hidden;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 0.7rem;
+}

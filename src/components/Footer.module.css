@@ -11,6 +11,7 @@
     padding: 45px 0;
     background-image: url(/public/footer-bg.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     /* background-image: url(/public/dc-logo.png); */
 }
 
@@ -18,7 +19,6 @@
     display: flex;
     gap: 5rem;
     flex-wrap: wrap;
-    height: 30vh;
 
 }
 
@@ -38,7 +38,7 @@ h2 {
     flex-direction: column;
     gap: 0.5rem;
     font-size: smaller;
-    color: rgb(134, 134, 133);
+    color: rgb(212, 212, 212);
     font-weight: 100;
 }
 

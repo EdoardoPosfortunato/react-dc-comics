@@ -1,14 +1,20 @@
 import style from "./Main.module.css"
+import ComicsList from "./ComicsList.jsx"
 
 
 function Main() {
   return (
     <>
-      <div className={style.main}>
+    <ComicsList />
+      {/* <div className={style.main}>
+        <div className={style.img}></div>
         <div className={style.container}>
-          <p>---- Content goes here ------</p>
+          <div className={style.card}>
+            <img src="" alt="" />
+            <h2>Titolo</h2>
+          </div>
         </div>
-      </div>
+      </div> */}
     </>
   )
 }
