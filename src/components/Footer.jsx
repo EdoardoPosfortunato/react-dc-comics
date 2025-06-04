@@ -1,4 +1,5 @@
 import style from "./Footer.module.css"
+import navItems from "../data/menu.js"
 
 function Footer() {
   return (
@@ -9,17 +10,13 @@ function Footer() {
             <div className={style.flexList}>
               <h2>DC COMICS</h2>
               <ul>
-                <li>Characters</li>
-                <li>Comics</li>
-                <li>Lorem</li>
-                <li>Lorem</li>
-                <li>Lorem</li>
-                <li>Lorem</li>
-                <li>Lorem</li>
+                {navItems.map((currListItem, index) => 
+                <li key={index}><a href="">{currListItem.id}</a></li>
+                )}
               </ul>
             </div>
             <div className={style.flexList}>
-              <h2>DC COMICS</h2>
+              <h2>SHOP</h2>
               <ul>
                 <li>Characters</li>
                 <li>Comics</li>
@@ -27,7 +24,7 @@ function Footer() {
               </ul>
             </div>
             <div className={style.flexList}>
-              <h2>DC COMICS</h2>
+              <h2>DC</h2>
               <ul>
                 <li>Characters</li>
                 <li>Comics</li>
@@ -42,7 +39,7 @@ function Footer() {
               </ul>
             </div>
             <div className={style.flexList}>
-              <h2>DC COMICS</h2>
+              <h2>SITES</h2>
               <ul>
                 <li>Characters</li>
                 <li>Comics</li>

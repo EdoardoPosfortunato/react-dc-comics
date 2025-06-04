@@ -1,7 +1,6 @@
-import ComicsList from "./ComicsList";
-import style from "./ComicsList.Module.css";
+import style from "./ComicsList.module.css"
 
-const ComicCard = ({img, title}) => {
+const ComicCard = ({img, title, index}) => {
    return (
     <div className={style.card}>
         <img src={img} alt="" />

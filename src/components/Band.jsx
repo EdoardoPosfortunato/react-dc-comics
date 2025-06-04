@@ -5,7 +5,27 @@ function Band() {
     <>
       <div className={style.band}>
         <div className={style.container}>
-          <p>--- Questo è il Band ---</p>
+          <div className={style.band}>
+            <img src="/buy-comics-digital-comics.png" alt="" />
+            <h1>DIGITAL COMICS</h1>
+          </div>
+          <div className={style.band}>
+            <img src="/buy-comics-merchandise.png" alt="" />
+            <h1>DC MERCH</h1>
+          </div>
+          <div className={style.band}>
+            <img src="/buy-comics-subscriptions.png" alt="" />
+            <h1>SUBSCRIPTION</h1>
+          </div>
+          <div className={style.band}>
+            <img src="/buy-comics-shop-locator.png" alt="" />
+            <h1>COMICS SHOP</h1>
+          </div>
+          <div className={style.band}>
+            <img src="/buy-dc-power-visa.svg" alt="" />
+            <h1>DC POWER</h1>
+          </div>
+
         </div>
       </div>
     </>

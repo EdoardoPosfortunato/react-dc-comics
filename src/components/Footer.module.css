@@ -23,7 +23,6 @@
 .flexList {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
 }
 
 h2 {
@@ -34,6 +33,7 @@ h2 {
 .flexList ul {
     display: flex;
     flex-direction: column;
+    padding: 0;
     gap: 0.5rem;
     font-size: smaller;
     color: rgb(212, 212, 212);

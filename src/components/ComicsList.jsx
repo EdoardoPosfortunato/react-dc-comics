@@ -10,6 +10,7 @@ const ComicsList = () => {
                 <div className={style.bacheca}>
                     {comics.map((currComic) => (
                         <ComicCard 
+                        key = {currComic.id}
                         img = {currComic.thumb}
                         title = {currComic.title}
                         />

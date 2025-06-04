@@ -1,6 +1,6 @@
 .band {
     background-color: rgb(62, 160, 252);
-    height: 150px;
+
 }
 
 .container {
@@ -8,11 +8,28 @@
     margin: 0 auto;
     height: 100%;
     display: flex;
+    gap: 2rem;
     align-items: center;
+    padding: 40px 0px;
 }
 
 
 p {
     color: white;
     font-size: 2rem;
+}
+
+
+.band {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    h1 {
+        color: white;
+        font-size: small;
+    }
+
+    img {
+        width: 30px;
+    }
 }

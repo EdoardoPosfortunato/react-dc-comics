@@ -1,4 +1,5 @@
 import style from "./Header.module.css"
+import navItems from "../data/menu.js"
 
 function Header() {
   return (
@@ -11,16 +12,9 @@ function Header() {
             </div>
             <div className={style.listDivision}>
               <ul>
-                <li><a href="">CHARACTERS</a></li>
-                <li><a href="">COMICS</a></li>
-                <li><a href="">MOVIES</a></li>
-                <li><a href="">TV</a></li>
-                <li><a href="">GAMES</a></li>
-                <li><a href="">COLLECTIBLES</a></li>
-                <li><a href="">VIDEOS</a></li>
-                <li><a href="">FANS</a></li>
-                <li><a href="">NEWS</a></li>
-                <li><a href="">SHOP</a></li>
+                {navItems.map((currListItem, index) => 
+                <li key={index}><a href="">{currListItem.title}</a></li>
+                )}
               </ul>
             </div>
           </div>
