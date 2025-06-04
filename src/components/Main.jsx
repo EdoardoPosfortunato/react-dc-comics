@@ -1,4 +1,3 @@
-import style from "./Main.module.css"
 import ComicsList from "./ComicsList.jsx"
 
 

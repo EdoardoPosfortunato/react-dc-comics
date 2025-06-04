@@ -1,5 +1,6 @@
 import comics from "../data/comics.js";
 import style from "./ComicsList.module.css"
+import ComicCard from "./card.jsx";
 
 const ComicsList = () => {
     return (
@@ -8,10 +9,14 @@ const ComicsList = () => {
             <div className={style.container}>
                 <div className={style.bacheca}>
                     {comics.map((currComic) => (
-                    <div className={style.card}>
-                        <img src={currComic.thumb} alt="" />
-                        <h2>{currComic.title}</h2>
-                    </div> 
+                        <ComicCard 
+                        img = {currComic.thumb}
+                        title = {currComic.title}
+                        />
+                    // <div className={style.card}>
+                    //     <img src={currComic.thumb} alt="" />
+                    //     <h2>{currComic.title}</h2>
+                    // </div> 
                     ))}
                 </div>
                 <div className={style.btn}>
